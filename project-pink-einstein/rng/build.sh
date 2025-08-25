@@ -2,7 +2,7 @@
 
 set -eux -o pipefail
 
-DOCKER_IMG="golang:1.16.2-alpine@sha256:4891e17c9d2de88ebd1d9421919539226a76773d6ad1b4ac7376b286039c9be2"
+DOCKER_IMG="docker.io/golang:1.16.2-alpine@sha256:4891e17c9d2de88ebd1d9421919539226a76773d6ad1b4ac7376b286039c9be2"
 SCRIPT_DIR="$(cd "$(dirname "$0")" ; pwd -P)"
 
 if [ $# -ne 1 ]; then

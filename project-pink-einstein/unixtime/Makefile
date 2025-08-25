@@ -1,4 +1,4 @@
-DOCKER_IMG=ownyourbits/mmake@sha256:c43710f2234e13666b8672a3b6e4f1706335a116ad5f9b8dc77fcf234aa08166
+DOCKER_IMG=docker.io/ownyourbits/mmake@sha256:c43710f2234e13666b8672a3b6e4f1706335a116ad5f9b8dc77fcf234aa08166
 default: dist/unixtime
 
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
